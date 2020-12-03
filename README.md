@@ -1,5 +1,5 @@
 
-# Project Title
+# Teaching AI with p5js
 
 Final project for the Building AI course
 
