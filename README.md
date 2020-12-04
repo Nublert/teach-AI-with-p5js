@@ -53,7 +53,11 @@ Output variable (based on sensory data):
 
 After testing, I considered pH and alcohol percentage as good y and x values, and I used the quality as the color variable. Mapping of the data looks like this in p5.js:
 
+![Wine Quality](/wine_mapping.png)
+I made use of tutorials by Allison Parrish and Daniel Shiffman to create this demo (see Acknowledgements for details).
 
+Direct link to the code:
+https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF
 
 ## Data sources and AI methods
 https://archive.ics.uci.edu/ml/datasets/wine+quality
@@ -80,4 +84,4 @@ Linear regression is the first method I'm investigating, but it's likely that al
 * Using csv data: https://creative-coding.decontextualize.com/csv-files/ by Allison Parrish
 * Open datasets: https://lionbridge.ai/datasets/10-open-datasets-for-linear-regression/ 
 * Code example on linear regression with p5.js and ml5js by Coding Train / Daniel Shiffman: https://thecodingtrain.com/CodingChallenges/104-linear-regression-tfjs.html
-* https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF
+
