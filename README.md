@@ -61,6 +61,7 @@ I made use of the tutorials by Allison Parrish and Daniel Shiffman to create thi
 
 Direct link to the code:
 https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF
+I appreciate comments on my failed TensorFlow parts of the code - please open an issue if you can help me out <3 
 
 ## Data sources and AI methods
 https://archive.ics.uci.edu/ml/datasets/wine+quality
@@ -77,9 +78,8 @@ In the education setting it's important to sufficiently cover the technologies u
 If the students were to use datasets they find interesting, the data needs to be in the correct format, and it will take some effort to discuss what makes a useful dataset for linear regression what doesn't. T
 
 ## What next?
-After I've made the code work, improving the lesson plans and testing them with students is a logical next step.
-Linear regression is the first method I'm investigating, but it's likely that all the AI methods from Building AI can be taught on p5.js. 
-
+After I've made the code work, improving the lesson plans is a logical next step. I need to learn TensorFlow.js. Also, it will be useful to play around with KNN or something similar with this data. 
+Wine data isn't the best for teenagers, so I'll also need to collect and test a selection of usable datasets.
 
 ## Acknowledgments
 
