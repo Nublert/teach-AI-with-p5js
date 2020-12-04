@@ -31,12 +31,12 @@ Classroom requirements:
 
 ## Demo
 
-I tested working with open data and Tensorflow.js tools. My test data was  to red and white variants of the Portuguese "Vinho Verde" wine. For more details, consult: [Web Link] or the reference [Cortez et al., 2009].
+I tested working with open data and Tensorflow.js tools. 
 
-These datasets can be viewed as classification or regression tasks. The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). Outlier detection algorithms could be used to detect the few excellent or poor wines. Also, we are not sure if all input variables are relevant. So it could be interesting to test feature selection methods.
+My test data was about the red variant of the Portuguese "Vinho Verde" wine (P. Cortez et. al., see Acknowledgements for details).
+According to Cortez, the data can be viewed as a classification or regression task. The classes are ordered and not balanced (e.g. there are many more normal wines than excellent or poor ones). 
 
-
-Data consists of these variables (based on physicochemical tests):
+The data consists of these variables (based on physicochemical tests):
 1 - fixed acidity
 2 - volatile acidity
 3 - citric acid
@@ -54,7 +54,10 @@ Output variable (based on sensory data):
 After testing, I considered pH and alcohol percentage as good y and x values, and I used the quality as the color variable. Mapping of the data looks like this in p5.js:
 
 ![Wine Quality](/wine_mapping.png)
-I made use of tutorials by Allison Parrish and Daniel Shiffman to create this demo (see Acknowledgements for details).
+
+I still struggle with drawing the actual linear regression of this data. However, looking at the color mapping, it looks like the Nearest Neighbor method might produce sensible results: green stands for a higher quality ranking, blue as lower, and there seems to be a correlation to pH and alcohol percentage (the higher the percentage and lower the pH, the better the quality).
+
+I made use of the tutorials by Allison Parrish and Daniel Shiffman to create this demo (see Acknowledgements for details).
 
 Direct link to the code:
 https://editor.p5js.org/codingtrain/sketches/UtOWCSYYF
@@ -64,7 +67,7 @@ https://archive.ics.uci.edu/ml/datasets/wine+quality
 Paulo Cortez, University of Minho, Guimarães, Portugal, http://www3.dsi.uminho.pt/pcortez
 A. Cerdeira, F. Almeida, T. Matos and J. Reis, Viticulture Commission of the Vinho Verde Region(CVRVV), Porto, Portugal
 
-I'm investigating linear regression as the first method. 
+I'm investigating linear regression as the first method, but the data suggests that Nearest Neighbor would work as well. 
 
 
 ## Challenges
