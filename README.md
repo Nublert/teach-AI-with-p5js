@@ -2,7 +2,7 @@
 # Teaching AI with p5js
 
 Final project for the Building AI course
-
+ 
 ## Summary
 
 I'm exploring ways to continue teaching some of the AI methods covered on the Building AI course in the classroom in an easy and creative way. 
